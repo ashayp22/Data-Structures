@@ -1,0 +1,4 @@
+In this solution, I created a recursive method that is passed in the suffix that it is looking for and
+the current path. After finding the files and subdirectories part of the path, I checked the files for
+the match suffix and called the recursive method again with the other subdirectories. At the end,
+I appended the matching files to an array and returned it.
