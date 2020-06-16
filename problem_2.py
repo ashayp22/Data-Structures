@@ -37,3 +37,7 @@ def find_files(suffix, path):
 
 print(find_files(".c", "testdir"))
 #prints: ['testdir/subdir1/a.c', 'testdir/subdir3/subsubdir1/b.c', 'testdir/subdir5/a.c', 'testdir/t1.c']
+print(find_files(".h", "testdir"))
+#prints: ['testdir/subdir1/a.h', 'testdir/subdir3/subsubdir1/b.h', 'testdir/subdir5/a.h', 'testdir/t1.h']
+print(find_files(".gitkeep", "testdir"))
+#prints: ['testdir/subdir2/.gitkeep', 'testdir/subdir4/.gitkeep']

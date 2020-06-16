@@ -131,6 +131,7 @@ class LRU_Cache(object):
         print("  ")
 
 
+#Test case 1
 our_cache = LRU_Cache(5)
 
 our_cache.set(1, 1)
@@ -150,3 +151,21 @@ our_cache.set(6, 6)
 
 print(our_cache.get(3))
 # returns -1 because the cache reached it's capacity and 3 was the least recently used entry
+
+#Test case 2
+cache2 = LRU_Cache(5)
+cache2.set(1, 1)
+cache2.set(2, 4)
+cache2.set(3, 9)
+cache2.set(4, 16)
+cache2.set(5, 25)
+cache2.set(6, 36)
+print(cache2.get(2))
+# returns 4
+print(cache2.get(1))
+# returns -1 because 6 is not present in the cache
+
+#Test case 3
+empty_cache = LRU_Cache(5)
+print(cache2.get(1))
+#returns -1

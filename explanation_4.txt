@@ -1,0 +1,4 @@
+In this solution, I used a recursive function that checked all of the users belonging to the group against the user
+we are searching for. If a match isn't found, I ran the recursive function again with all of the groups belong to the current group.
+The worst case time complexity is O(n), but the average time complexity is O(n/2), both being linear. The space complexity is also
+O(n) because we are traversing through every node.

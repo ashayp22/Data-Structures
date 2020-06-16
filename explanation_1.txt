@@ -2,4 +2,5 @@ I used two data structures: a queue built from a doubly linked list that held th
 and a dictionary that held the keys and nodes. I did this so I could get the values based on the
 key with a time complexity of O(1), as well as add values with a time complexity of O(1). Also,
 when there wasn't enough space left, I removed the first item in the queue (FIFO) and updated
-the dictionary as well with a time complexity of O(1).
+the dictionary as well with a time complexity of O(1). The space complexity is also O(n) because I am only storing
+the data once, with the rest being pointers. 
