@@ -25,3 +25,5 @@ Linked list and hashing implementation of blockchains.
 
 Finding the unions and intersections of linked lists.
 
+The problems were complated for Udacity's "Data Structures and Algorithms" course.
+
