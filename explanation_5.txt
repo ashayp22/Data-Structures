@@ -1,3 +1,0 @@
-I created a linked list with the Block class. I added an initialize method, an append method, and a print method.
-Each Block points to the previous Block through its hash, similar to a linked list. In order to lookup a hash,
-the time and space complexity is O(n).
